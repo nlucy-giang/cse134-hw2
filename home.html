@@ -17,7 +17,7 @@
                     <td>
                         <table border="0" width="85%" align="center" cellpadding="10">
                             <tr>
-                                <td><img src="logo.png" alt="Your Logo" width="75px"; height= "75px"></td>
+                                <td><img src="logo.jpg" alt="Your Logo" width="75px"; height= "75px"></td>
                                 <td>
                                     <span><font face="Comic sans MS" size="5" color="#fff"> <b> LUCY GIANG </b></font></span>
                                 </td>
@@ -39,50 +39,52 @@
     </header>
     <!-- Main Content -->
     <main>
-        <table>
-            <tr>
-                <td>
-                    <table width="85%" border="0" align="center" cellpadding="15px">
-                        <tr>
-                            <td>
-                                <picture>
-                                    <source srcset="portrait 2.png" media="(min-width: 768px)">
-                                    <source srcset="portrait.png">
-                                    <figure>
-                                        <img src="portrait.png" height="600px" alt="picture of me">
-                                        <figcaption align="center">this is me!</figcaption>
-                                    </figure>
-                                </picture>
-                            </td>
-                            <td>
-                                <h1><font face="Open Sans" size="5"> Hi, I'm</font></h1>
-                                <span><h1><strong><font face="Open Sans" size="6"> Lucy Giang</font></strong></h1></span>
-                                <h2><i> <font face="Open Sans" size="2"> Student Developer</font></i></h2>
-                                <p><font size="3">I'm a fourth year undergrad at UC San Diego and my passion is Computer Science. My interests include software design and development, UI/UX design, game development, artificial intelligence, and machine learning.</font></p>
-                                <hr>
-                                <a href="cv.pdf"><button> Download CV</button></a>
-                                <pre>
-                                    <code>
-                                        function greet() {
-                                            console.log("Hello, recruiters!");
-                                        }
-                                    </code>
-                                </pre>
-                                <p><em>Learn more about my:</em></p>
-                                <a href="#skills"><button>Skills</button></a>
-                                <a href="#mission"><button>Mission</button></a>
-                                <a href="#projects"><button>Projects</button></a>
-                                <a href="#contact"><button>Contact</button></a>
-                                <br><br>
-                                <iframe src="https://github.com/nlucy-giang"></iframe>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
+        <section id="about">
+            <table>
+                <tr>
+                    <td>
+                        <table width="85%" border="0" align="center" cellpadding="15px">
+                            <tr>
+                                <td>
+                                    <picture>
+                                        <source srcset="portrait 2.jpg" media="(min-width: 768px)">
+                                        <source srcset="portrait.jpg">
+                                        <figure>
+                                            <img src="portrait.jpg" height="600px" alt="picture of me">
+                                            <figcaption align="center">this is me!</figcaption>
+                                        </figure>
+                                    </picture>
+                                </td>
+                                <td>
+                                    <h1><font face="Open Sans" size="5"> Hi, I'm</font></h1>
+                                    <span><h1><strong><font face="Open Sans" size="6"> Lucy Giang</font></strong></h1></span>
+                                    <h2><i> <font face="Open Sans" size="2"> Student Developer</font></i></h2>
+                                    <p><font size="3">I'm a fourth year undergrad at UC San Diego and my passion is Computer Science. My interests include software design and development, UI/UX design, game development, artificial intelligence, and machine learning.</font></p>
+                                    <hr>
+                                    <a href="cv.pdf"><button> Download CV</button></a>
+                                    <pre>
+                                        <code>
+                                            function greet() {
+                                                console.log("Hello, recruiters!");
+                                            }
+                                        </code>
+                                    </pre>
+                                    <p><em>Learn more about my:</em></p>
+                                    <a href="#skills"><button>Skills</button></a>
+                                    <a href="#mission"><button>Mission</button></a>
+                                    <a href="#projects"><button>Projects</button></a>
+                                    <a href="#contact"><button>Contact</button></a>
+                                    <br><br>
+                                    <iframe src="https://github.com/nlucy-giang"></iframe>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </section>
         <!-- Other sections: Skills, Mission, Projects -->
-        <section>
+        <section id="skills">
             <!-- Skills -->
             <table width="100%" bgcolor="#fafbff">
                 <tr>
@@ -98,17 +100,17 @@
                             </tr>
                             <tr align="center">
                                 <td>
-                                    <img src="icon.png" width="15%"> <br><br>
+                                    <img src="icon.jpg" width="15%"> <br><br>
                                     <h3><font size="5"> Object-Oriented Programming </font> <br></h3>
                                     <font size="3"> This is a description of the skill. More information about each of these skills will be written here later. </font>
                                 </td>
                                 <td>
-                                    <img src="icon.png" width="15%"> <br><br>
+                                    <img src="icon.jpg" width="15%"> <br><br>
                                     <h3><font size="5"> HTML/CSS/JavaScript Development </font> <br></h3>
                                     <font size="3"> This is a description of the skill. More information about each of these skills will be written here later. </font>
                                 </td>
                                 <td>
-                                    <img src="icon.png" width="15%"> <br><br>
+                                    <img src="icon.jpg" width="15%"> <br><br>
                                     <h3><font size="5"> Java </font> <br></h3>
                                     <font size="3"> This is a description of the skill. More information about each of these skills will be written here later. </font>
                                 </td>
@@ -121,7 +123,7 @@
             </table>
         </section>
         <!-- Mission -->
-        <section>
+        <section id="mission">
             <table width="100%">
                 <colgroup>
                     <col bgcolor="#fff">
@@ -148,7 +150,7 @@ ate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat c
             <br><br><br><br>
         </section>
         <!-- Projects -->
-        <section>
+        <section id="projects">
             <table width="100%" bgcolor="#fafbff">
                 <tr>
                     <td>
@@ -202,7 +204,7 @@ ate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat c
             </table>
         </section>
         <!-- Contact -->
-        <section>
+        <section id="contact">
             <form>
                 <table width="100%" bgcolor="#333C3E">
                     <tr>
